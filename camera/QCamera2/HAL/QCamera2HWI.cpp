@@ -677,6 +677,8 @@ int QCamera2HardwareInterface::take_picture(struct camera_device *device)
     }
 
     hw->unlockAPI();
+    hw->mLastCaptureTime = systemTime();
+
     ALOGD("[KPI Perf] %s: X", __func__);
     return ret;
 }
@@ -1036,7 +1038,9 @@ QCamera2HardwareInterface::QCamera2HardwareInterface(int cameraId)
       mMetadataJob(-1),
       mReprocJob(-1),
       mVideoMem(NULL),
-      mPreviewFrameSkipValid(0)
+      mPreviewFrameSkipValid(0),
+      mLastAFScanTime(0),
+      mLastCaptureTime(0)
 {
     mCameraDevice.common.tag = HARDWARE_DEVICE_TAG;
     mCameraDevice.common.version = HARDWARE_DEVICE_API_VERSION(1, 0);
