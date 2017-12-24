@@ -102,8 +102,8 @@ PRODUCT_PACKAGES += \
     charger_res_images
 
 # ConfigPanel
-#PRODUCT_PACKAGES += \
-#    ConfigPanel
+PRODUCT_PACKAGES += \
+    ConfigPanel
 
 # Gestures and Glove mode package
 PRODUCT_PACKAGES += \
