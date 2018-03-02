@@ -6,3 +6,4 @@ allow qti_init_shell qmuxd_socket:sock_file create_file_perms;
 
 allow qti_init_shell touchpanel_sysfs:dir { rw_dir_perms setattr };
 allow qti_init_shell touchpanel_sysfs:file { getattr setattr };
+

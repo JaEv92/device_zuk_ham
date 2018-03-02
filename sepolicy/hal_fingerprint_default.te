@@ -1,0 +1,6 @@
+allow hal_fingerprint_default fingerprint_device:chr_file { open read };
+allow hal_fingerprint_default fingerprint_sysfs:file { write open };
+allow hal_fingerprint_default data_qsee_file:dir { write remove_name };
+allow hal_fingerprint_default data_qsee_file:file { rename unlink };
+allow hal_fingerprint_default tee_device:chr_file rw_file_perms;
+allow hal_fingerprint_default vfat:file { read open getattr };
