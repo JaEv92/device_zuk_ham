@@ -1741,7 +1741,7 @@
         <ctl name="RX1 MIX1 INP1" value="IIR2" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
         <ctl name="DAC1 Switch" value="1" />
-        <ctl name="RX1 Digital Volume" value="80" />
+        <ctl name="RX1 Digital Volume" value="93" />
     </path>
 
     <path name="BUILTINMIC_HEADSET">
