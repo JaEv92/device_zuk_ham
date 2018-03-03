@@ -1,0 +1,18 @@
+allow hal_memtrack_default servicemanager:file { read open getattr };
+allow hal_memtrack_default servicemanager:dir { search };
+allow hal_memtrack_default hwservicemanager:file { read open getattr };
+allow hal_memtrack_default hwservicemanager:dir { search };
+allow hal_memtrack_default vndservicemanager:file { read open getattr };
+allow hal_memtrack_default vndservicemanager:dir { search };
+allow hal_memtrack_default hal_keymaster_default:file { read open getattr };
+allow hal_memtrack_default hal_keymaster_default:dir { search };
+allow hal_memtrack_default hal_configstore_default:file { read open getattr };
+allow hal_memtrack_default hal_configstore_default:dir { search };
+allow hal_memtrack_default hal_health_default:file { read open getattr };
+allow hal_memtrack_default hal_health_default:dir { search };
+allow hal_memtrack_default hal_light_default:file { read open getattr };
+allow hal_memtrack_default hal_light_default:dir { search };
+allow hal_memtrack_default hal_usb_default:file { read open getattr };
+allow hal_memtrack_default hal_usb_default:dir { search };
+allow hal_memtrack_default hal_vibrator_default:file { read };
+allow hal_memtrack_default hal_vibrator_default:dir { search };

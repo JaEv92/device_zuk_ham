@@ -1,0 +1,2 @@
+allow charger_monitor sysfs:file { read };
+allow charger_monitor charger_monitor:capability { dac_override };

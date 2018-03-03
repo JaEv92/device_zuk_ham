@@ -1,0 +1,1 @@
+#allow mpdecision mpdecision:capability { sys_ptrace };

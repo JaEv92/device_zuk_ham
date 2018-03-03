@@ -1,0 +1,7 @@
+dontaudit untrusted_app_25 hal_memtrack_default:binder { call };
+dontaudit untrusted_app_25 proc:file { read open getattr };
+dontaudit untrusted_app_25 adb_data_file:dir { read getattr };
+dontaudit untrusted_app_25 proc_stat:file { read open getattr };
+dontaudit untrusted_app_25 sysfs:file { read open getattr };
+dontaudit untrusted_app_25 touchpanel_sysfs:file { getattr };
+dontaudit untrusted_app_25 camera_prop:file { read open getattr };
