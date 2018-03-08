@@ -1,1 +1,3 @@
-#allow mpdecision mpdecision:capability { sys_ptrace };
+allow mpdecision sysfs_memory:dir { search };
+allow mpdecision sysfs_memory:file { read open };
+dontaudit mpdecision mpdecision:capability { sys_ptrace };

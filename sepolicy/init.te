@@ -1,0 +1,6 @@
+allow init video_device:chr_file { write read open ioctl };
+allow init camera_data_file:sock_file { write };
+allow init mm-qcamerad:unix_dgram_socket { sendto };
+allow init ion_device:chr_file { write read open ioctl };
+allow init cameraserver:binder { call };
+allow init hal_graphics_allocator_default:fd { use };

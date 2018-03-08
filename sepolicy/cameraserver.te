@@ -1,0 +1,1 @@
+dontaudit cameraserver init:binder { call transfer };

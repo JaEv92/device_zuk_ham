@@ -4,3 +4,5 @@ allow hal_fingerprint_default data_qsee_file:dir { write remove_name };
 allow hal_fingerprint_default data_qsee_file:file { rename unlink };
 allow hal_fingerprint_default tee_device:chr_file rw_file_perms;
 allow hal_fingerprint_default vfat:file { read open getattr };
+allow hal_fingerprint_default data_qsee_file:dir { add_name };
+
