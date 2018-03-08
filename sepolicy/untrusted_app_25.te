@@ -8,3 +8,5 @@ dontaudit untrusted_app_25 camera_prop:file { read open getattr };
 dontaudit untrusted_app_25 system_data_file:dir { read };
 dontaudit untrusted_app_25 apk_data_file:file { setattr };
 dontaudit untrusted_app_25 proc_zoneinfo:file { read open getattr };
+dontaudit untrusted_app_25 serialno_prop:file { open getattr };
+
