@@ -132,9 +132,6 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 
-#HWUI
-HWUI_COMPILE_FOR_PERF := true
-
 # Wifi
 BOARD_HAS_QCOM_WLAN              := true
 BOARD_HAS_QCOM_WLAN_SDK          := true
