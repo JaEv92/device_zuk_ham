@@ -209,6 +209,9 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+# Use Snapdragon LLVM Compiler
+TARGET_USE_SDCLANG := true
+
 # SELinux policies
 # qcom sepolicy
 include device/qcom/sepolicy/sepolicy.mk
