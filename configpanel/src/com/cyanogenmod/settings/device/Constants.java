@@ -46,6 +46,6 @@ public class Constants {
 
     static {
         sBooleanNodePreferenceMap.put(BUTTON_SWAP_KEY, BUTTON_SWAP_NODE);
-        sNodeDefaultMap.put(BUTTON_SWAP_KEY, false);
+        sNodeDefaultMap.put(BUTTON_SWAP_KEY, true);
     }
 }
