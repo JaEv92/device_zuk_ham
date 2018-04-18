@@ -11,6 +11,9 @@ persist.radio.custom_ecc=1
 # enable multisim
 persist.radio.multisim.config=dsds
 
+# Camera
+persist.camera.HAL3.enabled=1
+
 # bluetooth
 qcom.bluetooth.soc=smd
 
